@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Register page</title>
+</head>
+<body>
+    <form>
+       <table align="center" border="2" cellspacing="0" width="60%">
+        <tr><th>Customer Registration Form</th></tr>
+        <tr>
+            <th>CustomerId: &emsp;<input type="text" name="customerId"><br><br>
+                UserName: &emsp;<input type="text" name="userName"><br><br>
+                Password : &emsp; <input type="password" name="password"><br><br>
+                Gender   : &emsp;<input type="radio" name="gender">Male &emsp;<input type="radio" name="gender" value="Female">Female
+                        &emsp;<input type="radio" name="gender" value="others">Others<br><br>
+                Qualification : &emsp;<input type="checkbox" name="qualification" value="SSC">SSC
+                               &emsp;<input type="checkbox" name="qualification" value="Inter/Diploma">Inter/Diploma<br><br>
+                               &emsp;<input type="checkbox" name="qualification" value="Degree">Degree
+                               &emsp;<input type="checkbox" name="qualification" value="PG">PG<br><br>
+               State : &emsp;&emsp;<select name="state" id="state">
+                              <option value="none">---None---</option>
+                              <option value="andhrapradesh">Andhra Pradesh</option>
+                              <option value="telangana">Telangana</option>
+                              </select><br><br>
+               City : &emsp;&emsp;<select name="city" id="city" value="city">
+                              <option value="none">---None---</option>
+                              <option value="hyderabad">Hyderabad</option>
+                              <option value="vijayawada">Vijayawada</option>
+                              </select><br><br>
+                PhoneNumber: &emsp;<input type="text" name="phonenumber" value="phonenumber"><br><br>
+                                   <input type="submit" name="btnregister" value="Register">&emsp;&emsp;
+                                   <input type="submit" name="btnreset" value="Reset">
+        </tr>
+       </table>
+    </form>
+</body>
+</html>
