@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration Page</title>
+</head>
+<body>
+    <form action="customerregistration.html">
+        <table border="2" align="center" width="50%" cellspacing="0">
+            <tr><th>CUSTOMER REGISTRATION</th></tr>
+            <tr>
+                <th>
+                    Cust ID:&emsp; <input type="text" name="custid"><br><br>
+                    UserName:&emsp;<input type="text" name="userName"><br><br>
+                    password:&emsp;<input type="password" name="password"><br><br>
+                    Gender:&emsp; <select name="gender" id="gender" style="width: 170px;">
+                               <option value="none">----None---</option>
+                               <option value="male">Male</option>
+                               <option value="female">Female</option>
+                               <option value="other">Other</option>
+                            </select><br><br>
+                   Qualification:&emsp; <select name="qualification" id="qualification" style="width: 150px;">
+                                    <option value="none">----None---</option>
+                                    <option value="10th">10th</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="bachelor">Bachelor's Degree</option>
+                                    <option value="master">Master's Degree</option>
+                                </select><br><br>
+                   State:&emsp;<select name="state" id="state" style="width: 200px;">
+                               <option value="none">----None---</option>
+                               <option value="andhra pradesh">Andhra Pradesh</option>
+                               <option value="telangana">Telangana</option>
+                               <option value="karnataka">Karnataka</option>
+                               <option value="tamil nadu">Tamil Nadu</option>
+                            </select><br><br>
+                  City :&emsp;  <select name="city" id="city" style="width: 200px;">
+                               <option value="none">----None---</option>
+                               <option value="hyderabad">Hyderabad</option>
+                               <option value="vijayawada">Vijayawada</option>
+                               <option value="vizag">Vizag</option>
+                               <option value="bangalore">Bangalore</option>
+                            </select> <br><br>
+                phoneNumber:&emsp; <input type="text" name="phoneNumber"><br><br>
+                             <input type="submit" name="btnregister" value="Register">
+                             <input type="submit" name="btnreset" value="Reset">
+                        
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
