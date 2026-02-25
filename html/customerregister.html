@@ -6,33 +6,32 @@
     <title>Customer Register page</title>
 </head>
 <body>
+    <h1 align="center">Sathya Technologies Customer Register page</h1><hr>
     <form>
-       <table align="center" border="2" cellspacing="0" width="60%">
-        <tr><th>Customer Registration Form</th></tr>
+       <table align="center">
         <tr>
-            <th>CustomerId: &emsp;<input type="text" name="customerId"><br><br>
-                UserName: &emsp;<input type="text" name="userName"><br><br>
-                Password : &emsp; <input type="password" name="password"><br><br>
-                Gender   : &emsp;<input type="radio" name="gender">Male &emsp;<input type="radio" name="gender" value="Female">Female
-                        &emsp;<input type="radio" name="gender" value="others">Others<br><br>
-                Qualification : &emsp;<input type="checkbox" name="qualification" value="SSC">SSC
-                               &emsp;<input type="checkbox" name="qualification" value="Inter/Diploma">Inter/Diploma<br><br>
-                               &emsp;<input type="checkbox" name="qualification" value="Degree">Degree
-                               &emsp;<input type="checkbox" name="qualification" value="PG">PG<br><br>
-               State : &emsp;&emsp;<select name="state" id="state">
+            <td>CustomerId</td><td><input type="text" name="customerId"></td></tr>
+                <tr><td>UserName:</td><td><input type="text" name="userName"></td></tr>
+                <tr><td>Password</td> <td><input type="password" name="password"></td></tr>
+                <tr><td>Gender</td> <td><input type="radio" name="gender">Male</td><td><input type="radio" name="gender" value="Female">Female</td>
+                        <td><input type="radio" name="gender" value="others">Others</td>
+                <tr><td>Qualification</td><td><input type="checkbox" name="qualification" value="SSC">SSC</td>
+                               <td><input type="checkbox" name="qualification" value="Inter/Diploma">Inter/Diploma</td>
+                               <td><input type="checkbox" name="qualification" value="Degree">Degree</td>
+                               <td><input type="checkbox" name="qualification" value="PG">PG</td></tr>
+                <tr><td>State</td><td><select name="state" id="state">
                               <option value="none">---None---</option>
                               <option value="andhrapradesh">Andhra Pradesh</option>
                               <option value="telangana">Telangana</option>
-                              </select><br><br>
-               City : &emsp;&emsp;<select name="city" id="city" value="city">
+                              </select></td></tr>
+               <tr><td>City</td><td><select name="city" id="city" value="city">
                               <option value="none">---None---</option>
                               <option value="hyderabad">Hyderabad</option>
                               <option value="vijayawada">Vijayawada</option>
-                              </select><br><br>
-                PhoneNumber: &emsp;<input type="text" name="phonenumber" value="phonenumber"><br><br>
-                                   <input type="submit" name="btnregister" value="Register">&emsp;&emsp;
-                                   <input type="submit" name="btnreset" value="Reset">
-        </tr>
+                              </select></td></tr>
+                <tr><td>PhoneNumber</td><td><input type="text" name="phonenumber"></td></tr>
+                                  <tr><td><input type="submit" name="btnregister" value="Register"></td>
+                                   <td><input type="submit" name="btnreset" value="Reset"></td></tr>
        </table>
     </form>
 </body>
